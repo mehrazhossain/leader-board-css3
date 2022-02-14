@@ -24,7 +24,7 @@
       <!-- top players & top blog start -->
       <section class="container">
         <div class="top-players">
-          <h2 class="section-title">Top Players</h2>
+          <h2 id="top-players" class="section-title">Top Players</h2>
           <div class="players">
             <div class="player">
               <img src="images/players/player-1.png" alt="" />
@@ -55,7 +55,7 @@
         <hr />
         <div class="top-blogs">
           <h2 class="section-title">Top Blogs</h2>
-          <div class="blogs">
+          <div id="blogs" class="blogs">
             <article class="blog">
               <div class="thumbnail">
                 <img src="images/blogs/blog-1.png" alt="" />
@@ -170,6 +170,28 @@
           </div>
         </div>
       </section>
+      <!-- list section -->
+      <section class="container">
+        <h1>Full-stack Web Developer Roadmap</h1>
+        <ul id="unordered-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>CSS Framework</li>
+          <li>JavaScript</li>
+          <li>JavaScript Framework</li>
+          <li>MongoDB</li>
+          <li>NodeJs</li>
+          <li>NodeJs Framework</li>
+        </ul>
+        <button id="add">Append</button>
+      </section>
+      <!-- increase input value by clicking button -->
+      <section>
+        <h1>Increase Input Value Upto 5</h1>
+        <input id="input" type="text" value="0" />
+        <button id="increase">Increase</button>
+      </section>
     </main>
+    <script src="js/app.js"></script>
   </body>
 </html>
